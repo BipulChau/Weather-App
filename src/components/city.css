@@ -1,16 +1,45 @@
-.logo{
+.logo {
   display: flex;
   flex-direction: column;
   margin: auto;
   align-items: center;
-  width:140px;
-  height:140px;
-  margin:40px auto
+  width: 140px;
+  height: 140px;
+  margin: 40px auto;
 }
 
-.choose_city{
+.choose_city {
   color: black;
   font-size: 18px;
   font-weight: bold;
   margin: 10px auto;
+}
+
+.search_city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: black solid 1px;
+  border-radius: 2px;
+  color: black;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+input {
+  padding:10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.search_button {
+  padding:10px;
+  font-size: 14px;
+  color:#935bba;
+  background-color: #32a852;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
 }

@@ -9,7 +9,7 @@ function App() {
     <div className="main">
       <Nav/>
       <City />
-      
+      <Weather/>
     </div>
   );
 }
