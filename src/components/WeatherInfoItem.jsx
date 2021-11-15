@@ -1,14 +1,23 @@
 import "./weatherinfo.css";
 
+const weatherInfoLogos = {
+  sunset: "/logo/temp.svg",
+  sunrise: "/logo/temp.svg",
+  humidity: "/logo/humidity.svg",
+  wind: "/logo/wind.svg",
+  pressure: "/logo/pressure.svg",
+}
+
 const WeatherInfoItem = (props) => {
+  const {name, value} = props
   return (
     <div className="weather_infoItem">
       <img
         className="logo_info"
-        src="/logo/temp.svg"
-        alt="perfect-day logo"
+        src={weatherInfoLogos[name]}
+        alt={name}
       /> 
-      <span>18:00 <br/>Sunrise</span>    
+      <span>{value}<br/>{name}</span>    
     </div>
   )
 }

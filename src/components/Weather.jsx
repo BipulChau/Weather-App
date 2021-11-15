@@ -5,10 +5,11 @@ import WeatherInfoItems from "./WeatherInfoItems";
 const Weather = () => {
   return (
     <Fragment>
-      {/* <span className="react_app">Weather App</span> */}
     <div className="weather">
+      <span>
       <span className="condition">30 C</span>
       <span className="cloudy">| Cloudy</span>
+      </span>
       <img
         className="logo"
         src="/logo/perfect-day.svg"
