@@ -1,0 +1,9 @@
+.weather_details{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color:blue;
+}
