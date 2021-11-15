@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import "./weather.css";
-import WeatherInfo from "./WeatherInfo";
+import WeatherInfoItems from "./WeatherInfoItems";
 
 const Weather = () => {
   return (
@@ -17,7 +17,7 @@ const Weather = () => {
     </div>
     <span className="location">Toronto, CA</span>
     <span className="weather_info">Weather Info</span>
-    <WeatherInfo/>
+    <WeatherInfoItems/>
     </Fragment>
   );
 };

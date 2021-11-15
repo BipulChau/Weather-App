@@ -7,3 +7,19 @@
   flex-wrap: wrap;
   color:blue;
 }
+
+.logo_info {
+  width: 36px;
+  height: 36px;
+}
+
+.weather_infoItem{
+  display: flex;
+  width: 50%;
+  padding-bottom: 30px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color:blue;
+}
