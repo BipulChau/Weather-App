@@ -1,7 +1,8 @@
-import './App.css';
-
+import"./city.css"
 const City = () => {
-  return <div className="city">This is City Component.</div>;
+  return <div className="city">
+    <img className= "logo" src="/logo/perfect-day.svg"/>
+    </div>;
 };
 
 export default City;
