@@ -1,5 +1,16 @@
 .logo{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
   width:140px;
   height:140px;
-  margin:40px
+  margin:40px auto
+}
+
+.choose_city{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px auto;
 }
