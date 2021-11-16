@@ -1,6 +1,6 @@
 
 # Weather App - ReactJS Projects
-Weather App is a single-page application made with React.
+Weather App is a single-page application to get weather data made with React.
 
 ## API used
 [OpenWeather API](https://openweathermap.org/)
@@ -22,11 +22,11 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ## Features
 Responsive UI in a Single Page
-!["View, book and cancel interview appointment"](https://github.com/BipulChau/scheduler/blob/master/docs/View,%20create,%20cancel%20appointment%20along%20with%20spots%20remaining.png?raw=true)
+!["Landing Page"](https://github.com/BipulChau/Weather-App/blob/master/app-images/Landing-page.png?raw=true)
 
-!["Delete an appointment"](https://github.com/BipulChau/scheduler/blob/master/docs/Delete%20Appointment.png?raw=true)
+!["Search Input"](https://github.com/BipulChau/Weather-App/blob/master/app-images/Search-input.png?raw=true)
+
+![Search Result](https://github.com/BipulChau/Weather-App/blob/master/app-images/Search-Result.png?raw=true)
