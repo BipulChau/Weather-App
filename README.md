@@ -1,6 +1,6 @@
 
 # Weather App - ReactJS Projects
-Weather App is a single-page application to get weather data made with React.
+Made with React Weather App is a single-page application to get weather data.
 
 ## API used
 [OpenWeather API](https://openweathermap.org/)
