@@ -17,7 +17,7 @@ const Weather = (props) => {
         </span>
         <img
           className="logo"
-          src="/logo/perfect-day.svg"
+          src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} 
           alt="perfect-day logo"
         />
       </div>

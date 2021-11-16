@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="main">
       <Nav/>
-      <City city_name={city_name} search_weather={search_weather}/>
+      <City city_name={city_name} search_weather={search_weather} weather={weather}/>
       {weather && <Weather weather={weather} city={city}/>}
     </div>
   );
