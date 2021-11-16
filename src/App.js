@@ -9,7 +9,8 @@ import "./components/App.css";
 function App() {
   const [city, setCity]=useState("")
   const [weather, setWeather]=useState("")
-  const API_KEY="631bfbab4c344b5840b0aab611e2fab9"
+  const API_KEY=process.env.REACT_APP_API_KEY
+  console.log(process.env.REACT_APP_API_KEY)
 
   const city_name = e => {
     setCity(e.target.value)
